@@ -1,0 +1,31 @@
+Feature,Coefficient
+num__Discount,5.51110354593613
+cat__Sub-Category_Copiers,-4.143000270983345
+cat__Sub-Category_Storage,3.6144255265113574
+cat__Sub-Category_Supplies,3.402170243163541
+cat__Sub-Category_Machines,-2.561585940491951
+cat__Sub-Category_Binders,-2.4762439429140124
+cat__Category_Office Supplies,-2.416320224376949
+cat__Sub-Category_Paper,-2.327628261386341
+cat__Sub-Category_Art,-2.0308836691267884
+cat__Sub-Category_Fasteners,1.5842460079794447
+cat__Sub-Category_Phones,-1.5056262093937103
+cat__Sub-Category_Labels,-1.425854741260451
+cat__Sub-Category_Appliances,-1.391914326508203
+cat__Sub-Category_Envelopes,-1.3646370608354967
+cat__Sub-Category_Bookcases,1.308089027513295
+cat__Sub-Category_Tables,0.8956280406224448
+cat__Sub-Category_Furnishings,-0.8754207507598045
+cat__Sub-Category_Chairs,0.5096908679802546
+cat__Ship Mode_Same Day,-0.32444443571180215
+cat__Ship Mode_Standard Class,0.30393976430202846
+cat__Segment_Corporate,-0.275297476258943
+cat__Region_East,0.20246235670061677
+cat__Region_West,0.19766900917227873
+cat__Ship Mode_Second Class,-0.1970128873231486
+num__Ship Days,-0.15942333748207496
+num__Discount2,-0.12945780039142363
+num__Quantity,-0.1261636143798607
+cat__Region_South,0.11303193583448859
+cat__Segment_Home Office,0.06775598737252646
+cat__Category_Technology,0.06277981216197777

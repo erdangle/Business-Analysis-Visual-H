@@ -1,0 +1,240 @@
+{
+  "source": {
+    "name": "Tableau Superstore Sample Data",
+    "url": "https://public.tableau.com/app/sample-data/sample_-_superstore.xls",
+    "license": "Tableau official sample data; no separate open-data license stated",
+    "cutoff": "2026-09-30"
+  },
+  "audit": {
+    "raw_rows": 10194,
+    "raw_duplicates": 0,
+    "future_rows_removed": 1251,
+    "invalid_ship_rows_removed": 0,
+    "clean_rows": 8943,
+    "orders": 4462,
+    "customers": 801,
+    "products": 1851,
+    "date_min": "2023-01-03",
+    "date_max": "2026-09-30",
+    "sales_outlier_upper": 499.215,
+    "sales_outlier_rows": 1034,
+    "profit_outlier_lower": -40.28864999999999,
+    "profit_outlier_upper": 71.92374999999998,
+    "negative_profit_rows": 1652,
+    "negative_profit_share": 0.18472548361847255,
+    "missing_values": 0
+  },
+  "kpi": {
+    "sales": 2039430.0333,
+    "profit": 263278.35279999994,
+    "margin": 0.12909408437708916,
+    "orders": 4462,
+    "customers": 801,
+    "avg_order_value": 457.06634542805915,
+    "return_rate": 0.05737337516808606,
+    "loss_row_rate": 0.18472548361847255,
+    "avg_discount": 0.15494353125349436,
+    "avg_ship_days": 3.9633232695963323
+  },
+  "rfm_thresholds": {
+    "recency": 180,
+    "frequency": 3,
+    "monetary": 1912.223
+  },
+  "classification": {
+    "auc": 0.9837348701485856,
+    "accuracy": 0.9145796064400715,
+    "precision": 0.7003610108303249,
+    "recall": 0.9394673123486683,
+    "f1": 0.8024819027921406,
+    "confusion_matrix": [
+      [
+        1657,
+        166
+      ],
+      [
+        25,
+        388
+      ]
+    ]
+  },
+  "forecast": {
+    "method": "Holt-Winters additive seasonal",
+    "rolling_folds": [
+      {
+        "train_end": "2025-03-01",
+        "test_start": "2025-04-01",
+        "test_end": "2025-09-01",
+        "rmse": 12635.600398091885,
+        "mae": 9924.82798327143,
+        "mape": 20.412166152893853
+      },
+      {
+        "train_end": "2025-09-01",
+        "test_start": "2025-10-01",
+        "test_end": "2026-03-01",
+        "rmse": 17018.725273741442,
+        "mae": 14625.416061916256,
+        "mape": 26.167366966042866
+      },
+      {
+        "train_end": "2026-03-01",
+        "test_start": "2026-04-01",
+        "test_end": "2026-09-01",
+        "rmse": 9541.693977465497,
+        "mae": 7611.127441935255,
+        "mape": 15.196296487341545
+      }
+    ],
+    "rmse": 13420.622580230109,
+    "mae": 10720.457162374314,
+    "mape": 20.591943202092754,
+    "next_6m_total": 384719.89445772255,
+    "next_6m_lower": 229245.12483182136,
+    "next_6m_upper": 545340.7178449006
+  },
+  "abc": {
+    "a_count": 8,
+    "a_sales_share": 0.7804146035961979
+  },
+  "charts": [
+    {
+      "filename": "n01_regional_sales.png",
+      "title": "区域销售规模",
+      "chart_type": "渐变柱形图",
+      "template_no": "01"
+    },
+    {
+      "filename": "n02_state_mean.png",
+      "title": "重点州销售额与均值",
+      "chart_type": "带均值柱形图",
+      "template_no": "02"
+    },
+    {
+      "filename": "n03_top_subcategories.png",
+      "title": "前十品类销售贡献",
+      "chart_type": "标注柱形图",
+      "template_no": "03"
+    },
+    {
+      "filename": "n04_stacked_structure.png",
+      "title": "区域与品类结构",
+      "chart_type": "层叠柱形图",
+      "template_no": "04"
+    },
+    {
+      "filename": "n05_customer_butterfly.png",
+      "title": "客户类型的品类偏好",
+      "chart_type": "蝴蝶图",
+      "template_no": "05"
+    },
+    {
+      "filename": "n06_quarter_comparison.png",
+      "title": "季度销售同比",
+      "chart_type": "对比柱形图",
+      "template_no": "06"
+    },
+    {
+      "filename": "n07_order_timeline.png",
+      "title": "订单履约周期",
+      "chart_type": "甘特图",
+      "template_no": "07"
+    },
+    {
+      "filename": "n08_smoothed_sales.png",
+      "title": "月度销售趋势",
+      "chart_type": "平滑折线图",
+      "template_no": "08"
+    },
+    {
+      "filename": "n09_margin_trend.png",
+      "title": "月度利润率",
+      "chart_type": "菱形走势图",
+      "template_no": "09"
+    },
+    {
+      "filename": "n10_sales_profit.png",
+      "title": "销售额与利润走势",
+      "chart_type": "对比折线图",
+      "template_no": "10"
+    },
+    {
+      "filename": "n11_region_runway.png",
+      "title": "区域销售规模指数",
+      "chart_type": "跑道图",
+      "template_no": "11"
+    },
+    {
+      "filename": "n12_category_rose.png",
+      "title": "品类销售规模",
+      "chart_type": "南丁格尔玫瑰图",
+      "template_no": "12"
+    },
+    {
+      "filename": "n13_sales_margin.png",
+      "title": "销售规模与利润率",
+      "chart_type": "柱形折线图",
+      "template_no": "13"
+    },
+    {
+      "filename": "n14_category_bullet.png",
+      "title": "品类利润率与参考线",
+      "chart_type": "子弹图",
+      "template_no": "14"
+    },
+    {
+      "filename": "n15_category_dumbbell.png",
+      "title": "重点品类同期销售变化",
+      "chart_type": "对比滑珠图",
+      "template_no": "15"
+    },
+    {
+      "filename": "m01_rfm_segments.png",
+      "title": "RFM客户分层与销售贡献",
+      "chart_type": "RFM",
+      "template_no": ""
+    },
+    {
+      "filename": "m02_rfm_scatter.png",
+      "title": "RFM客户分布",
+      "chart_type": "RFM",
+      "template_no": ""
+    },
+    {
+      "filename": "m03_cohort_heatmap.png",
+      "title": "客户同期群留存率",
+      "chart_type": "同期群",
+      "template_no": ""
+    },
+    {
+      "filename": "m04_abc_pareto.png",
+      "title": "品类ABC帕累托图",
+      "chart_type": "ABC分类",
+      "template_no": ""
+    },
+    {
+      "filename": "m05_boston_matrix.png",
+      "title": "品类波士顿矩阵",
+      "chart_type": "波士顿矩阵",
+      "template_no": ""
+    },
+    {
+      "filename": "m06_loss_risk.png",
+      "title": "亏损风险预警",
+      "chart_type": "逻辑回归",
+      "template_no": ""
+    },
+    {
+      "filename": "m07_forecast.png",
+      "title": "Holt-Winters销售预测",
+      "chart_type": "Holt-Winters",
+      "template_no": ""
+    },
+    {
+      "filename": "m08_profit_quality.png",
+      "title": "品类利润质量诊断",
+      "chart_type": "利润诊断",
+      "template_no": ""
+    }
+  ]
+}
