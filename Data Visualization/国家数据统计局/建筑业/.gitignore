@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# 运行时缓存（ECharts 本地缓存，可随时重新下载）
+echarts.min.js
+cache/
+
+# 编辑器
+.vscode/
